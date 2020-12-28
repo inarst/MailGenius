@@ -21,6 +21,27 @@ body {
 
 /* Общие (конец) */
 
+.main-header-nav {
+    color: white;
+    font-weight: 700;
+    margin-left: 66px;
+}
+
+.main-header-nav a+a,
+.info-header-nav a+a {
+    margin-left: 30px;
+}
+
+.info-header-nav {
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .container {
     max-width: 1114px;
     padding: 0 15px;
