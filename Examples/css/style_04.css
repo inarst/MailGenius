@@ -2,6 +2,16 @@
     box-sizing: border-box;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
 body {
     font: 400 14px/1 'PT Sans', sans-serif;
     margin: 0;
@@ -18,8 +28,19 @@ body {
     align-items: center;
 }
 
+.justify-content-center {
+    justify-content: center;
+}
+
 
 /* Общие (конец) */
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+}
 
 .main-header-nav {
     color: white;
@@ -48,7 +69,63 @@ a {
     margin: auto;
 }
 
-.header {
-    background: black;
-    padding: 40px 0;
+.btn {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.333;
+    padding: 16px 30px;
 }
+
+.btn-default {
+    background-color: white;
+    box-shadow: 0px 4px 20px #0f4c6f;
+    color: #0f4c6f;
+}
+
+.header {
+    /*background: black;*/
+    padding: 40px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.inner {
+    height: 100vh;
+    background: linear-gradient(89.79deg, #23196f 0.13%, #180d5d 99.88%);
+    padding-top: 106px;
+}
+
+.call-to-action-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    line-height: 1.291;
+    margin-top: 55px;
+}
+
+.inner-call-to-action {
+    max-width: 545px;
+}
+
+.call-to-action-desq {
+    font-size: 18px;
+    line-height: 1.33;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 20px;
+    max-width: 390px;
+    margin-bottom: 55px;
+}
+
+.call-to-action-desq>span {
+    color: cadetblue;
+    font-weight: bold;
+}
+
+.test-your-email {
+    display: inline-block;
+}
+
+.email-not-required {}
