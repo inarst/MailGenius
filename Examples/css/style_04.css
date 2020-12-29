@@ -128,4 +128,12 @@ a {
     display: inline-block;
 }
 
-.email-not-required {}
+.email-not-required {
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+}
+
+.email-not-required>span {
+    margin-left: 14px;
+}
